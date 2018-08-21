@@ -1,0 +1,45 @@
+body {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+main {
+    width : 8em;
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+output {
+}
+
+.buttons {
+    flex-wrap : wrap;
+}
+
+.buttons button {
+    width : 3em;
+    background-color: #262626;
+    border-color: #ffffff;
+    border-width: 0.01em;
+    -webkit-text-fill-color: #ffffff;
+    margin-top : 0.3em;
+    margin-bottom : 0.3em
+}
+
+.startbutton {
+    background-color: #fd5158;
+    border: #fd5158;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.resetbutton {
+    background-color: #51f1fd;
+    border: #51f1fd;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.startbutton:hover, .startbutton:focus {
+    background-color: #000000;
+    cursor: pointer;
+}
